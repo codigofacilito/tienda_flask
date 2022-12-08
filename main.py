@@ -28,7 +28,6 @@ def products():
 @app.route('/products/create', methods=['GET'])
 def create_product():
     title = 'Listado de productos'
-    
     return render_template('products/create.html')
 
 
